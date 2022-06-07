@@ -83,6 +83,17 @@ var cientoDosRojo = L.polyline(camino_ciento_ocho_rojo,{
     color: 'pink'
 }).addTo(map);
 
+var veinteVerde = L.polyline(camino_veinte_verde,{
+    color: 'crimson'
+}).addTo(map);
+
+var microH = L.polyline(camino_h,{
+    color: 'Turquoise'
+}).addTo(map);
+
+var cientoDiecisiete = L.polyline(camino_cientodiecisiete,{
+    color: 'chocolate'
+}).addTo(map);
 
 
 /** 

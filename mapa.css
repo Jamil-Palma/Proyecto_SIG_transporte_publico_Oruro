@@ -1,6 +1,11 @@
 #map {
     height: 80vh;
     width: 100hw;
+
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: black;
 }
 
 h1{
@@ -10,6 +15,14 @@ h1{
 }
 
 select{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#select-location{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.card{
     margin-bottom: 20px;
     margin-left: 20px;
 }

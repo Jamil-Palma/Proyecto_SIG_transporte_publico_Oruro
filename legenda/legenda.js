@@ -71,7 +71,32 @@ const variable_legenda = L.control.Legend({
             weight: 2,
             layers: cientoDosRojo
         }, 
+        {
+            label: "Camino 20 Verde",
+            type: "polyline",
+            color: "crimson",
+            fillColor: "#FF0000",
+            weight: 2,
+            layers: veinteVerde
+        }, 
+        {
+            label: "Camino micro H",
+            type: "polyline",
+            color: "Turquoise",
+            fillColor: "#FF0000",
+            weight: 2,
+            layers: microH
+        }, 
+        {
+            label: "Camino 117 rojo",
+            type: "polyline",
+            color: "chocolate",
+            fillColor: "#FF0000",
+            weight: 2,
+            layers: cientoDiecisiete
+        }, 
     ]
 }).addTo(map);
+
 
 
