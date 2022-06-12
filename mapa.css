@@ -22,6 +22,18 @@ select{
     margin-bottom: 20px;
     margin-left: 50px;
 }
+#botonInicio{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#botonFin{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+#MarcarCamino{
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
 .card{
     margin-bottom: 20px;
     margin-left: 20px;

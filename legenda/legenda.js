@@ -1,11 +1,3 @@
-var marcador_virgen = L.circleMarker(L.latLng(-17.974794, -67.120543),{
-    radius: 6,
-    fillColor: "#ff0000",
-    color: "blue",
-    weight: 2,
-    opacity: 1,
-    fillOpacity: 0.6
-}).addTo(map);
 
 const variable_legenda = L.control.Legend({
     position: "bottomright",
@@ -13,7 +5,7 @@ const variable_legenda = L.control.Legend({
     symbolWidth: 24,
     opacity:1,
     column:1,
-    title: "Caminos transporte publico Oruro",
+    title: "Transporte publico Oruro",
     legends: [
         {
             label: "Camino 1 celeste FNI",

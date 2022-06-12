@@ -44,7 +44,11 @@
     </select>
 </head>
 <body>
-    
+    <div>
+        <button id="botonInicio" onclick="functionPathStart()">Donde te encuentras</button>
+        <button id="botonFin" onclick="functionPathEnd()">A donde quieres llegar</button>
+        <button id="MarcarCamino" onclick="getMinimumPath()">Calcular ruta optima</button>
+    </div>
     <div id="map"></div>
 
 
@@ -65,13 +69,17 @@
     <script src="legenda/legenda.js"></script>
 
 
-    <br>
+    
     <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="img/mini_117_imagen.jpeg" alt="Card image cap">
         <div class="card-body">
             <p class="card-text">Mini 117 rojo, pasa por la antigua y nueva terminal.</p>
         </div>
     </div>
-
+    <input id="cordenada_x_ingreso">
+    <input id="cordenada_y_ingreso">
+    
+    <br>
+    <textarea></textarea>
 </body>
 </html>
