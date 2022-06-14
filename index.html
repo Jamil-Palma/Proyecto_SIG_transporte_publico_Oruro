@@ -45,9 +45,9 @@
 </head>
 <body>
     <div>
-        <button id="botonInicio" onclick="functionPathStart()">Donde te encuentras</button>
-        <button id="botonFin" onclick="functionPathEnd()">A donde quieres llegar</button>
-        <button id="MarcarCamino" onclick="getMinimumPath()">Calcular ruta optima</button>
+        <button type="button" class="btn btn-info" id="botonInicio" onclick="functionPathStart()">Donde te encuentras</button>
+        <button type="button" class="btn btn-warning" id="botonFin" onclick="functionPathEnd()">A donde quieres llegar</button>
+        <button type="button" class="btn btn-success" id="MarcarCamino" onclick="getMinimumPath()">Calcular ruta optima</button>
     </div>
     <div id="map"></div>
 
@@ -69,15 +69,88 @@
     <script src="legenda/legenda.js"></script>
 
 
-    
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/mini_117_imagen.jpeg" alt="Card image cap">
-        <div class="card-body">
-            <p class="card-text">Mini 117 rojo, pasa por la antigua y nueva terminal.</p>
+    <div class="card-group mt-3">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/mini_117_imagen.jpeg" alt="Card image cap" >
+            <div class="card-body">
+                <p class="card-text">Mini 117 rojo, pasa por la antigua y nueva terminal entre otros.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/mini_101_rojo.jpg" alt="Card image cap" >
+            <div class="card-body">
+                <p class="card-text">Mini 101 rojo, pasa por la ciudadela universitaria, campero y parque de la union entre otros.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/mini_uno_verde.jpg" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text">Mini 1 verde, pasa por el cementerio, plaza, parque de la union entre otros.</p>
+            </div>
         </div>
     </div>
     <input id="cordenada_x_ingreso" hidden = true>
     <input id="cordenada_y_ingreso" hidden = true>
     
+
+
+    <footer class="bg-primary text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Contenido del proyecto</h5>
+      
+              <p>
+                Proyecto de las rutas de transporte de la ciudad de Oruro.
+                Desarrollado parar la materia "Sistemas de informacion Geografica", en la universidad FNI, pertenecente a la
+                Universidad Tecnica de Oruro - UTO.
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Desarrolladores</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Jamil Brian Palma Salazar</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Mishel Herrera Vargas</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Contacto</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!" class="text-white">jbps.documentos@gmail.com</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://jamil-palma.github.io/Proyecto_SIG_transporte_publico_Oruro/">Rutas Oruro</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
 </body>
 </html>

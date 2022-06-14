@@ -142,8 +142,9 @@ function getDistanceBetweenPoints(lat1, lng1, lat2, lng2){
 }
 
 
-var rutas_transporte = [camino_uno_celeste_fni, camino_dos_verde_fni, camino_veintidos_verde_fni,camino_quince_verde];
-var nombres_minis = ["Uno celeste FNI", "Dos verde","Dos Verde FNI","Veintidos Verde FNI"];
+var rutas_transporte = [camino_uno_celeste_fni, camino_dos_verde_fni, camino_veintidos_verde_fni,camino_quince_verde,camino_ciento_ocho_rojo,
+    camino_veinte_verde,camino_h,camino_cientodiecisiete];
+var nombres_minis = ["Uno celeste FNI", "Dos verde","Dos Verde FNI","Veintidos Verde FNI","Ciento Ocho Rojo","Veinte Verde","Micro H","Ciento Diez y siete"];
 function getMinimumPath(){
     var posPathAnswer = 0;
     var posMinStart = 0;
